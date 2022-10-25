@@ -1,0 +1,1 @@
+# you can knowledge a breaking news to a country by add a country code like: Egypt ( a country code to her is a "eg") and so on , also you can a search about a news in general and you can saved the news for later reading.

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
+
+
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.a5bar.breakingNews.BreakingNewsFragment"
+        android:label="BreakingNewsFragment"
+        tools:layout="@layout/fragment_breaking_news">
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/articleNewsFragment"
+        android:name="com.a5bar.articleNews.ArticleNewsFragment"
+        android:label="ArticleNewsFragment"
+        tools:layout="@layout/fragment_article_news"
+        >
+        <argument
+            android:name="article"
+            app:argType="com.a5bar.model.NewsModel"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.a5bar.savedNews.SavedNewsFragment"
+        android:label="SavedNewsFragment"
+        tools:layout="@layout/fragment_saved_news">
+        <action
+            android:id="@+id/action_savedNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchNewsFragment"
+        android:name="com.a5bar.searchNews.SearchNewsFragment"
+        android:label="SearchNewsFragment"
+        tools:layout="@layout/fragment_search_news">
+        <action
+            android:id="@+id/action_searchNewsFragment_to_articleNewsFragment"
+            app:destination="@id/articleNewsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.a5bar.ui.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash"
+        >
+        <action
+            android:id="@+id/action_splashFragment_to_breakingNewsFragment"
+            app:destination="@id/breakingNewsFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

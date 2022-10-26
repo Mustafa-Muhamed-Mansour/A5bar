@@ -1,1 +1,7 @@
 # you can knowledge a breaking news to a country by add a country code like: Egypt ( a country code to her is a "eg") and so on , also you can a search about a news in general and you can saved the news for later reading.
+
+<img src = "https://user-images.githubusercontent.com/53982895/198132655-3e523a4c-e713-44ee-9de6-21e20b5cd7a5.png" width = "200" height = "400">  <img src = "https://user-images.githubusercontent.com/53982895/198132675-5e9a9ab6-6fc0-4cdb-ba6a-ef29959b707e.png" width = "200" height = "400">
+<img src = "https://user-images.githubusercontent.com/53982895/198132471-9b1a1e9a-99c9-4968-b28d-9c0191944249.png" width = "200" height = "400">  <img src = "https://user-images.githubusercontent.com/53982895/198133464-9e812b5e-e733-46c8-b5f1-a7d122b5a467.png" width = "200" height = "400">
+<img src = "https://user-images.githubusercontent.com/53982895/198133091-d51a0b20-cad4-40da-9574-8c20e14d0242.png" width = "200" height = "400">  <img src = "https://user-images.githubusercontent.com/53982895/198142421-6e346ee0-9339-4b67-9202-c1455f518ec3.png" width = "200" height = "400">
+<img src = "https://user-images.githubusercontent.com/53982895/198145089-39e3bb72-8843-4ec5-9233-e815906a832d.png" width = "200" height = "400">  <img src = "https://user-images.githubusercontent.com/53982895/198140805-bbcfbcbc-ce4b-4135-924f-b4b6b197bc41.png" width = "200" height = "400">
+<img src = "https://user-images.githubusercontent.com/53982895/198140799-c928633c-1019-4f4c-8427-dd2ef446a01c.png" width = "200" height = "400">

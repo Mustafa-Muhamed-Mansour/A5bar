@@ -25,7 +25,7 @@ class NewsAdapter(private var clickArticle: ClickArticle) :
             return oldItem == newItem
         }
     }
-    //
+
     val differ = AsyncListDiffer(this, differCallBack)
 
     class ArticleViewHolder(binding: ItemArticleBinding) : RecyclerView.ViewHolder(binding.root) {

@@ -19,8 +19,8 @@ import com.google.android.material.snackbar.Snackbar
 
 class ArticleNewsFragment : Fragment() {
 
-    lateinit var viewModel: BreakingNewsViewModel
     private lateinit var binding: FragmentArticleNewsBinding
+    lateinit var viewModel: BreakingNewsViewModel
     private lateinit var breakingNewsRepository: BreakingNewsRepository
     private lateinit var breakingNewsViewModelFactory: BreakingNewsViewModelFactory
 
